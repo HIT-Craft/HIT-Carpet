@@ -78,6 +78,7 @@ public abstract class RedstoneWireBlockMixin implements RedstoneWireBlockInterfa
 
     /**
      * @author theosib, soykaf, gnembon
+     * @reason lalala
      */
     @Overwrite
     private BlockState updateLogic(World world_1, BlockPos blockPos_1, BlockState blockState_1) {

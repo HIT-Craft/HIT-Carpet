@@ -95,7 +95,7 @@ public abstract class TntEntityMixin extends Entity implements TntEntityInterfac
                         Vec3d tntVelocity = entityTNTPrimed.getVelocity();
                         if(tntVelocity.x == 0 && tntVelocity.y == 0 && tntVelocity.z == 0
                                 && this.x == entityTNTPrimed.x && this.z == entityTNTPrimed.z && this.y == entityTNTPrimed.y
-                                && this.fuseTimer == entityTNTPrimed.getFuseTimer()){
+                                && this.fuseTimer == entityTNTPrimed.getFuseTimer() + 1){
                             mergedTNT += ((TntEntityInterface) entityTNTPrimed).getMergedTNT();
                             entityTNTPrimed.remove();
                         }

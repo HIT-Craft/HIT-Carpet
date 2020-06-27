@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "carpet",
-  "version": "1.3.7",
+  "id": "hit-carpet",
+  "version": "1.0.3",
 
-  "name": "Carpet Mod in Fabric",
-  "description": "Carpet made out of fabric",
+  "name": "HIT Carpet",
+  "description": "Better carpet made out of fabric 1.14.4",
   "authors": [
-    "gnembon, ..."
+    "gnembon, ten_miles_away..."
   ],
   "contact": {
     "homepage": "https://github.com/gnembon/fabric-carpet",

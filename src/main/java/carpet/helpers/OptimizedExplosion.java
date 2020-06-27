@@ -6,6 +6,7 @@ import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.List;
 
+import carpet.logging.LoggerRegistry;
 import carpet.mixins.ExplosionAccessor;
 import carpet.CarpetSettings;
 import carpet.utils.Messenger;
@@ -48,6 +49,7 @@ public class OptimizedExplosion
     private static long tickmem;
     // For disabling the explosion particles and sound
     public static int explosionSound = 0;
+
 
     // masa's optimizations
     private static Object2DoubleOpenHashMap<Pair<Vec3d, Box>> densityCache = new Object2DoubleOpenHashMap<>();

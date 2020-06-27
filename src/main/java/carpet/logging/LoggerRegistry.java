@@ -29,10 +29,13 @@ public class LoggerRegistry
     public static boolean __packets;
     public static boolean __weather;
     public static boolean __pathfinding;
+    public static boolean __ticket;
+
 
     public static void initLoggers()
     {
         registerLogger("tnt", new Logger("tnt", "brief", new String[]{"brief", "full"}));
+
         registerLogger("projectiles", new Logger("projectiles", "brief",  new String[]{"brief", "full"}));
         registerLogger("fallingBlocks",new Logger("fallingBlocks", "brief", new String[]{"brief", "full"}));
         //registerLogger("kills", new Logger("kills", null, null));
@@ -44,6 +47,8 @@ public class LoggerRegistry
         registerLogger("packets", new HUDLogger("packets", null, null));
         registerLogger("counter",new HUDLogger("counter","white", Arrays.stream(DyeColor.values()).map(Object::toString).toArray(String[]::new)));
         registerLogger("mobcaps", new HUDLogger("mobcaps", "dynamic",new String[]{"dynamic", "overworld", "nether","end"}));
+
+        registerLogger("ticket",new Logger("ticket","portal",new String[]{"portal,player", "portal,dragon", "start", "dragon", "player", "forced", "light", "portal", "post_teleport", "unknown"}));
     }
 
     /**
