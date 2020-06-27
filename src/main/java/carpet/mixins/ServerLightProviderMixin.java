@@ -13,7 +13,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(ServerLightingProvider.class)
-public class LightStorageMixin {
+public class ServerLightProviderMixin {
     @Inject(method = "tick", at = @At("HEAD"), cancellable = true)
     private void cancelcall1(CallbackInfo ci) {
         if (!CarpetSettings.lightUpdates){
