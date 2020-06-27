@@ -55,6 +55,7 @@
     "ItemScatterer_extremeMixin",
     "ItemUsageContext_cactusMixin",
     "KelpFeatureMixin",
+    "LightStorageMixin",
     "LivingEntity_maxCollisionsMixin",
     "LivingEntity_scarpetEventsMixin",
     "LlamaSpitEntity_extremeMixin",

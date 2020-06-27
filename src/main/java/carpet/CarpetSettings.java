@@ -39,6 +39,9 @@ public class CarpetSettings
     public static Box currentTelepotingEntityBox = null;
     public static Vec3d fixedPosition = null;
 
+    @Rule( desc = "The light will not update", extra = "Never close it as default or try to load new chunks when update is closed", category = {CREATIVE,EXPERIMENTAL})
+    public static boolean lightUpdates = true;
+
     @Rule(
             desc = "Nether portals correctly place entities going through",
             extra = "Entities shouldn't suffocate in obsidian",
