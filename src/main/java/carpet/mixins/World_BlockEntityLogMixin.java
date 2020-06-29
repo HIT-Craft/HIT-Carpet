@@ -18,7 +18,7 @@ import java.util.List;
 import java.util.Map;
 
 @Mixin(World.class)
-public abstract class WorldChunk_BlockEntityLogMixin {
+public abstract class World_BlockEntityLogMixin {
 
     @Shadow public abstract long getTime();
     @Shadow @Final public List<BlockEntity> blockEntities;

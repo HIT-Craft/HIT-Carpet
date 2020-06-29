@@ -127,10 +127,10 @@
     "TntEntityMixin",
     "VillagerEntity_aiMixin",
     "WeightedPickerEntryMixin",
+    "World_BlockEntityLogMixin",
     "World_fillUpdatesMixin",
     "World_movableTEMixin",
     "World_tickMixin",
-    "WorldChunk_BlockEntityLogMixin",
     "WorldChunk_fillUpdatesMixin",
     "WorldChunk_movableTEMixin"
   ],
