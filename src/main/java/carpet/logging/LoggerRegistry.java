@@ -30,6 +30,7 @@ public class LoggerRegistry
     public static boolean __weather;
     public static boolean __pathfinding;
     public static boolean __ticket;
+    public static boolean __blockentity;
 
 
     public static void initLoggers()
@@ -49,6 +50,7 @@ public class LoggerRegistry
         registerLogger("mobcaps", new HUDLogger("mobcaps", "dynamic",new String[]{"dynamic", "overworld", "nether","end"}));
 
         registerLogger("ticket",new Logger("ticket","portal",new String[]{"portal,player", "portal,dragon", "start", "dragon", "player", "forced", "light", "portal", "post_teleport", "unknown"}));
+        registerLogger("blockentity",new Logger("blockentity","endislandfarm",new String[]{"endislandfarm"}));
     }
 
     /**

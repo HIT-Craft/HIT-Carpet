@@ -25,6 +25,7 @@
     "DispenserBlock_cactusMixin",
     "DispenserBlock_qcMixin",
     "EndCityFeatureMixin",
+    "EndGatewayFeature_BlockEntityLogMixin",
     "Entity_portalSuffocationMixin",
     "Entity_scarpetEventsMixin",
     "EntityMixin",
@@ -129,6 +130,7 @@
     "World_fillUpdatesMixin",
     "World_movableTEMixin",
     "World_tickMixin",
+    "WorldChunk_BlockEntityLogMixin",
     "WorldChunk_fillUpdatesMixin",
     "WorldChunk_movableTEMixin"
   ],

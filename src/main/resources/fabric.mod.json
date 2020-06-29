@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "id": "hit-carpet",
-  "version": "1.0.3",
+  "id": "carpet",
+  "version": "1.0.4",
 
   "name": "HIT Carpet",
   "description": "Better carpet made out of fabric 1.14.4",

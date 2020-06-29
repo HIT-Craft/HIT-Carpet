@@ -7,6 +7,14 @@
 
 # 新增或调整功能
 ## 监视器(log)
+### 方块实体(blockentity)
+`/log blockentity <监视场景>`
+
+记录方块实体信息
+* 目前仅支持末地石农场设计所需的方块实体添加信息与末地折跃门相关信息
+* 默认值: `endislandfarm`
+* 可选参数: `endislandfarm`
+
 ### 加载票(ticket)
 `/log ticket <监视类型>`
 
